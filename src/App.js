@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className='left-side'>
-        <div className='about'>
+        <div className='about-container'>
           <img src={me} className="about-image" alt="Leeann"/>
           <h1>Leeann Saengsavang</h1>
           <p>Full-Stack Developer</p>
