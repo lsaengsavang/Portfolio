@@ -1,3 +1,16 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    width: 15%;
+    height: 100vh;
+    margin-top: 0px;
+}
+
 .about-image {
     width: 200px;
     height: auto;
@@ -7,16 +20,6 @@
 .about-container {
     margin-bottom: 30px;
 
-}
-  
-.left-side {
-    float: left;
-    color: white;
-    background-color: black;
-    padding: 50px;
-    width: 15%;
-    height: 100vh;
-    margin-top: 0px;
 }
 
 button {

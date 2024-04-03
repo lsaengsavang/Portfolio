@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <div className='left-side'>
+    <div className='navbar'>
       <div className='about-container'>
         <img src={me} className="about-image" alt="Leeann"/>
         <h1>Leeann Saengsavang</h1>
