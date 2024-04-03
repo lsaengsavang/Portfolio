@@ -1,9 +1,18 @@
-.contact-container {
+.contact {
     height: 100vh;
     width: 100%;
 }
 
+.contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
 .contact-link {
-    display: block;
+    display: flex;
     margin-bottom: 10px;
+    font-size: 23px;
+    align-content: center ;
+    margin-left: 20%;
+
   }
