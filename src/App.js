@@ -9,15 +9,18 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div id="projects" className="section">
-        <Projects />
+      <div className='right-side'>
+        <div id="projects" className="section">
+          <Projects />
+        </div>
+        <div id="skills" className="section">
+          <Skills />
+        </div>
+        <div id="contact" className="section">
+          <Contact />
+        </div>
       </div>
-      <div id="skills" className="section">
-        <Skills />
-      </div>
-      <div id="contact" className="section">
-        <Contact />
-      </div>
+
     </div>
   );
 }

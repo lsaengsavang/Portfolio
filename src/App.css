@@ -1,9 +1,15 @@
 .App {
-  text-align: center;
   font-family: 'Roboto';
+  margin-top: 0;
+
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+.right-side {
+  margin-left: 19%;
+  text-align: center;
 }
