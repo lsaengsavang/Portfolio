@@ -2,11 +2,18 @@ import React from 'react';
 import '../css/Navbar.css';
 
 function Navbar() {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className='nav-buttons'>
-      <a href="#projects"><button>Projects</button></a>
-      <a href="#skills"><button>Skills</button></a>
-      <a href="#contact"><button>Contact</button></a>
+      <button onClick={() => scrollToSection('projects')}>Projects</button>
+      <button onClick={() => scrollToSection('skills')}>Skills</button>
+      <button onClick={() => scrollToSection('contact')}>Contact</button>
     </div>
   );
 }
