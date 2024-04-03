@@ -1,7 +1,6 @@
 .App {
   font-family: 'Roboto';
   margin-top: 0;
-
 }
 
 body {
@@ -12,4 +11,11 @@ body {
 .right-side {
   margin-left: 19%;
   text-align: center;
+}
+
+.page-title {
+  background-color: blue;
+  padding: 16px;
+  color: white;
+  font-weight: 300;
 }

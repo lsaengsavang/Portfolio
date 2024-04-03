@@ -5,7 +5,7 @@ import samplecode from '../assets/samplecode.jpg'
 function Projects() {
   return (
     <div className="projects">
-        <h2>Projects</h2>
+        <h2 className='page-title'>Projects</h2>
         <div className='projects-container'>
           <div className='project-card'>
             <img src={samplecode} className='project-photo' alt='Project sneak peek'/>
