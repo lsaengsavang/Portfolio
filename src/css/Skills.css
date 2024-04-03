@@ -1,5 +1,22 @@
 .skills-container {
     height: 50vh;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card i {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.skill-card {
+    flex: 0 0 calc(20% - 20px); 
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100px;
+    padding: 5px;
+    margin: 10px;
 }
 
