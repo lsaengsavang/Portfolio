@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Projects.css';
 import samplecode from '../assets/samplecode.jpg'
+import AdventureGame from '../assets/AdventureGame.png'
 
 function Projects() {
   return (
@@ -29,10 +30,11 @@ function Projects() {
             </div>
           </div>
           <div className='project-card'>
-            <img src={samplecode} className='project-photo' alt='Project sneak peek'/>
+            <img src={AdventureGame} className='project-photo' alt='Project sneak peek'/>
             <div className='profile-info'>
-              <h3>Project 4</h3>
-              <p>Project Description</p>
+              <a href='https://lsaengsavang.github.io/Milestone-1-Adventure-Game/'>Choose Your Own Adventure Game</a>
+              <p>Basic JavaScript game</p>
+              <p>Simple, but fun to play. It has 19 endings!</p>
             </div>
           </div>
         </div>
